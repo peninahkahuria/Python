@@ -1,0 +1,47 @@
+#Number1
+def numbers(*num):
+  for n in num:
+    if n%2==0:
+      print("Even")
+    else:
+      print("Odd")
+numbers(3)
+numbers(44)
+numbers(7464)
+
+#Number2
+def convert_distance(miles):
+    km = miles * 0.62 
+    return km
+result = convert_distance(55)
+print("The distance in Kilometers is " + str(result))
+
+
+#Number3
+def multiply(x,y):
+  answer=x*y
+  return answer
+a=multiply(76,23)
+b=multiply(81,43)
+c=multiply(65,87)
+print(a)
+print(b)
+print(c)
+
+
+#Number4
+def get_car(car="BMW"):
+  print("My dream car is {}".format(car))
+get_car("Range")
+get_car("Toyotta")
+get_car("Nissan")
+
+#Number5
+def pesh(num):
+  ans=1
+  for i in range(1,num+1):
+    ans*=i
+  return  ans
+print(pesh(47))
+print(pesh(37))
+print (pesh(22))

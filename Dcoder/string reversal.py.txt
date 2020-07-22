@@ -1,0 +1,4 @@
+#String reversal 1
+
+string="Hi Kahuria, welcome aboard"
+print(string[: :-1])

@@ -1,0 +1,19 @@
+peninah={'name':'peninah','age':20,'country':'uganda','county':'kihihi'}
+grace={'name':'grace','age':22,'country':'kenya','county':'kiambu'}
+john={'name':'john','age':35,'country':'india','county':'mumbai'}
+jane={'name':'jane', 'age':54,'country':'tanzania','county':'dodoma'}
+phiona={'name':'phiona', 'age':24,'country':'kenya','county':'kisumu'}
+students=[peninah,grace,john,jane,phiona]
+for student in students:
+  print(student['name'])
+for student in students:
+   name=student['name']
+   age=student['age']
+   county=student['county']
+   sentence= "{} is {} years and is from {} county".format(name,age, county)
+   
+   print(sentence)
+
+for student in students:  
+  print(3*student['age'])                   
+  print(2020-student['age'])
